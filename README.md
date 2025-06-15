@@ -58,3 +58,6 @@ Custom color theme with dark sidebar and light content.
 Oval profile picture styled like an antique photo frame.
 Clean layout and typography using Google Fonts.
 
+#Output#
+
+![Image](https://github.com/user-attachments/assets/c66f58f0-71ac-405f-af90-fe334cd1ecfe)
