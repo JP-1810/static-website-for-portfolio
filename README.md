@@ -104,5 +104,5 @@ You can also deploy this project to GitHub Pages or Netlify for free to make it 
 
 
 #Output#
-
+![Image](https://github.com/user-attachments/assets/dd7f79cd-6e70-4764-a061-d627b1a4dd42)
 
