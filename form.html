@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <!--To make this responsive first we need to set the viewport -->
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <!--To use the latest rendering engine available-->
+           <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+        <title>Got a Project?</title>
+    <link href="css/style.css" rel="stylesheet"> </head>
+        <body>
+<section id="project-form-section">
+  <h2>Got a Project?</h2>
+  <p class="form-description">
+    Have an idea in mind? Tell me about your project — whether it’s a website, an app, or something creative. I’ll get back to you as soon as possible!
+  </p>
+
+  <form action="thankyou.html" method="get" class="project-form">
+    <!--Name-->
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" required>
+<!--Email-->
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+<!--Project info-->
+    <label for="type">Project Type:</label>
+    <select id="type" name="type">
+      <option value="Website">Website</option>
+      <option value="App">App</option>
+      <option value="Portfolio">Portfolio</option>
+      <option value="Other">Other</option>
+    </select>
+
+    <label for="desc">Project Description:</label>
+    <textarea id="desc" name="description" rows="4" placeholder="Briefly describe your project and what you'd like it to do..." required></textarea>
+
+    <label for="deadline">Deadline (Optional):</label>
+    <input type="date" id="deadline" name="deadline">
+    <!--After submittion-->
+    <input type="hidden" name="_next" value="thankyou.html">
+<!--submit-->
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+        </body>
+</html>
