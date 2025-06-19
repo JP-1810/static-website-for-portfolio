@@ -42,15 +42,23 @@ The goal was to create a **responsive, user-friendly portfolio** that presents t
 ---
 
 ##  Folder Structure
-index.html(home page with sections : about-skills,projects,contac)
+###index.html(home page with sections : about-skills,projects,contac)
+
    it contains a button for the user asking if they got a project whic redirects them to
-    form.html
-    after submittion
-       thankyou.html(gives a thankyou message for submittion and a button that redirects to the home page)
-css-style.css
-js-script.js
-images-profilepic.png(Developers photo)
-icons-html,css,js,bootstrap(skill icons)
+ 
+  ###form.html
+  
+after submittion
+    
+   ### thankyou.html(gives a thankyou message for submittion and a button that redirects to the home page)
+   
+### css-style.css
+
+### js-script.js
+
+### images-profilepic.png(Developers photo)
+
+### icons-html,css,js,bootstrap(skill icons)
 
 
 ---
@@ -66,7 +74,7 @@ Describes the developer’s background and a button to toggle their **technical 
 ###  Projects
 A list of 2–3 sample projects shown as cards. Each has an image, a short description, and a "More Details" button that opens a **JavaScript modal** for extended information.
 
-### ✉️ Contact
+###  Contact
 Icons link to GitHub, LinkedIn, and email. There's also a static form **form.html** that redirects to **thankyou.html** after submission using html <form action="thankyou.html method="get"> 
 
 
@@ -74,30 +82,30 @@ Icons link to GitHub, LinkedIn, and email. There's also a static form **form.htm
 
 ##  Responsiveness
 The website is fully responsive:
-Uses flexbox and media queries to adapt layout
-Looks great on desktops, tablets, and mobile phones
-Button sizes, images, and font sizes adjust on smaller screens
-The layout adapts fluidly to various screen resolutions, ensuring a smooth experience regardless of the device. This is especially useful for recruiters or clients viewing the portfolio from mobile devices.
+### Uses flexbox and media queries to adapt layout
+### Looks great on desktops, tablets, and mobile phones
+### Button sizes, images, and font sizes adjust on smaller screens
+### The layout adapts fluidly to various screen resolutions, ensuring a smooth experience regardless of the device. This is especially useful for recruiters or clients viewing the portfolio from mobile devices.
 
 ---
 
 ##How to Use?
- clone or download this repository
- open index.html in any morden browser
- click navigation links to scroll to different sections 
- try the contact form - it will redirect to a thank-you page(static, no actual submission)
+###  clone or download this repository
+###  open index.html in any morden browser
+###  click navigation links to scroll to different sections 
+###  try the contact form - it will redirect to a thank-you page(static, no actual submission)
 
  ---
 
  ##How to Modify?
  
-Replace the profilepic.png in image/ with your own image.
-Update your bio and skills in the About section of index.html.
-Modify project details inside the .projects-container section.
-Add your own icons to the image/icons/ folder and reference them in the Skills section.
-Add your resume PDF and link it to the "Download Resume" button.
-Update your real contact links in the Contact section.
-You can also deploy this project to GitHub Pages or Netlify for free to make it accessible online. This allows others to view your work from any device with a browser.
+### Replace the profilepic.png in image/ with your own image.
+### Update your bio and skills in the About section of index.html.
+### Modify project details inside the .projects-container section.
+### Add your own icons to the image/icons/ folder and reference them in the Skills section.
+### Add your resume PDF and link it to the "Download Resume" button.
+### Update your real contact links in the Contact section.
+### You can also deploy this project to GitHub Pages or Netlify for free to make it accessible online. This allows others to view your work from any device with a browser.
 
  
 
